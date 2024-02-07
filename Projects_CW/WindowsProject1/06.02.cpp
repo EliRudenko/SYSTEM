@@ -3,7 +3,7 @@
 #include <string>
 
 //1
-
+/*
 INT WINAPI _tWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPTSTR lpszCmdLine, int nCmdShow)
 {
     const char* resume = "Верните. На ОПП пж Пожалуйста";//текст для "Резюме"
@@ -38,7 +38,7 @@ INT WINAPI _tWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPTSTR lpszCmdLine, i
 
     return 0;
 }
-
+*/
 
 //2
 /*

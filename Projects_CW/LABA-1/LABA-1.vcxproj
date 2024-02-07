@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c82abbdf-387f-41c8-8c36-bf9355718b5c}</ProjectGuid>
-    <RootNamespace>WinProjTest</RootNamespace>
+    <ProjectGuid>{3493ba62-0180-438b-b7e0-c54650fc721e}</ProjectGuid>
+    <RootNamespace>LABA1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,20 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="targetver.h" />
-    <ClInclude Include="WinProjTest.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="WinProjTest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="WinProjTest.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico" />
-    <Image Include="WinProjTest.ico" />
+    <ClCompile Include="07.02.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
