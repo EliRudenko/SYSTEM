@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingStatics", "UsingStatics\UsingStatics.vcxproj", "{35AC85AF-5F59-4102-8DDC-99835D98D0C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AC85AF-5F59-4102-8DDC-99835D98D0C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35AC85AF-5F59-4102-8DDC-99835D98D0C3}.Debug|Win32.Build.0 = Debug|Win32
+		{35AC85AF-5F59-4102-8DDC-99835D98D0C3}.Release|Win32.ActiveCfg = Release|Win32
+		{35AC85AF-5F59-4102-8DDC-99835D98D0C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81916ADB-743B-4317-AEA6-C0F3D137AACE}
+	EndGlobalSection
+EndGlobal
