@@ -1,0 +1,116 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"#include ""winres.h""\r\n"
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+IDD_DIALOG1 DIALOGEX 0, 0, 329, 221
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+DEFPUSHBUTTON   "OK", IDOK, 208, 200, 50, 14
+PUSHBUTTON      "Cancel", IDCANCEL, 262, 200, 50, 14
+PUSHBUTTON      "Button1", IDC_BUTTON1, 12, 12, 50, 18
+PUSHBUTTON      "Button2", IDC_BUTTON2, 67, 12, 50, 18
+PUSHBUTTON      "Button3", IDC_BUTTON3, 122, 12, 50, 18
+PUSHBUTTON      "Button4", IDC_BUTTON4, 177, 12, 50, 18
+PUSHBUTTON      "Button5", IDC_BUTTON5, 12, 36, 50, 18
+PUSHBUTTON      "Button6", IDC_BUTTON6, 67, 36, 50, 18
+PUSHBUTTON      "Button7", IDC_BUTTON7, 122, 36, 50, 18
+PUSHBUTTON      "Button8", IDC_BUTTON8, 177, 36, 50, 18
+PUSHBUTTON      "Button9", IDC_BUTTON9, 12, 60, 50, 18
+PUSHBUTTON      "Button10", IDC_BUTTON10, 67, 60, 50, 18
+PUSHBUTTON      "Button11", IDC_BUTTON11, 122, 60, 50, 18
+PUSHBUTTON      "Button12", IDC_BUTTON12, 177, 60, 50, 18
+PUSHBUTTON      "Button13", IDC_BUTTON13, 12, 84, 50, 18
+PUSHBUTTON      "Button14", IDC_BUTTON14, 67, 84, 50, 18
+PUSHBUTTON      "Button15", IDC_BUTTON15, 122, 84, 50, 18
+PUSHBUTTON      "Button16", IDC_BUTTON16, 177, 84, 50, 18
+EDITTEXT        IDC_EDIT1, 252, 12, 60, 90, ES_AUTOHSCROLL
+CONTROL         "", IDC_PROGRESS1, "msctls_progress32", WS_BORDER, 12, 190, 216, 14; Измененные координаты
+EDITTEXT        IDC_EDIT2, 252, 120, 48, 14, ES_AUTOHSCROLL
+CONTROL         "", IDC_SPIN1, "msctls_updown32", UDS_ARROWKEYS, 302, 120, 10, 14
+PUSHBUTTON      "Новая игра", IDC_BUTTON17, 84, 150, 60, 18
+LISTBOX         IDC_LIST1, 253, 14, 58, 86, LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+IDD_DIALOG1, DIALOG
+BEGIN
+LEFTMARGIN, 7
+RIGHTMARGIN, 322
+TOPMARGIN, 7
+BOTTOMMARGIN, 214
+END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
