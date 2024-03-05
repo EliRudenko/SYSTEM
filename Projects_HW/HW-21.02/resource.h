@@ -18,6 +18,7 @@
 #define IDC_LOGIN_EDIT      1002
 #define IDC_PASSWORD_EDIT   1003
 #define IDC_EMAIL_EDIT      1004
+#define WM_FILEWRITE (WM_USER + 1) 
 
 // Next default values for new objects
 // 
