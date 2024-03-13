@@ -44,7 +44,7 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmd
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-    static char buffer[MAXSTRLEN]; // Buffer to store user input
+    static char buffer[MAXSTRLEN]; 
 
     switch (message)
     {
@@ -79,16 +79,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             break;
         case IDC_SEND:
         {
-            // Get user input from the input edit control
             GetWindowTextA(hInputEdit, buffer, MAXSTRLEN);
 
-            // Send the user input to the client
             send(acceptSocket, buffer, strlen(buffer), 0);
 
-            // Optionally, you can handle the sent message here (e.g., display it)
             std::cout << "Sent: " << buffer << std::endl;
 
-            // Clear the input edit control
             SetWindowTextA(hInputEdit, "");
             break;
         }
