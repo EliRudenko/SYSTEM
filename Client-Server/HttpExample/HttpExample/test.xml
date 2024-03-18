@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<current>
+	<city id="698740" name="Odesa">
+		<coord lon="30.7326" lat="46.4775"></coord>
+		<country>UA</country>
+		<timezone>7200</timezone>
+		<sun rise="2022-12-19T 05:36:40" set="2022-12-19T 14:11:26"></sun>
+	</city>
+	<temperature value="272.99" min="272.99" max="272.99" unit="kelvin"></temperature>
+	<feels_like value="267.1" unit="kelvin"></feels_like>
+	<humidity value="55" unit="%"></humidity>
+	<pressure value="1041" unit="hPa"></pressure>
+	<wind>
+		<speed value="6.85" unit="m/s" name="Moderate breeze"></speed>
+		<gusts value="8.16"></gusts>
+		<direction value="8" code="N" name="North"></direction>
+	</wind>
+	<clouds value="3" name="clear sky"></clouds>
+	<visibility value="10000"></visibility>
+	<precipitation mode="no"></precipitation>
+	<weather number="800" value="clear sky" icon="01d"></weather>
+	<lastupdate value="2022-12-19T10:59:56"></lastupdate>
+</current>
