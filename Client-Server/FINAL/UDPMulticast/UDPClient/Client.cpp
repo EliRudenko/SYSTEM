@@ -81,6 +81,7 @@ int main()
     cout << "3. pie            4.65$\n";
     cout << "4. ice cream      2.68$\n";
     cout << endl;
+    
     // Библиотека Winsock
     WSADATA wsaData;// Структура для хранения информации о версии используемой Winsock API
     int iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);// версия версию Winsock 2.2.
